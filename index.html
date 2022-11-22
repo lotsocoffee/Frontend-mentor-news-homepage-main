@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">  
+  <title>lotso' coffee | News homepage | Frontend Mentor </title>  
+</head>
+<body>
+  <main class="main">
+    <header>
+          <!--mobile cover BEGGINS-->
+      <nav class="nav container">      
+          <a href=""><img class="nav__img" src="assets/images/logo.svg" alt="Co. logo"></a>  
+          <div class="nav__hamburguer"></div>
+          <!--mobile cover ENDS-->
+          <!--mobile cover MENU BEGGINS (DISPLAY WHEN HAM MENU EVENT DETECTED)-->
+        <div class="nav__overlay mobile"> <!--OVERLAY BACKGROUND FROM HAM MENU OPENED-->
+          <ul class="nav__menu">  <!--THE HAM MENU ITSELF WHEN DISPLAY-->
+            <li class="nav__item"><span class="nav__parent"><a href="#">Home</a></span></li>
+            <li class="nav__item"><span class="nav__parent"><a href="#">New</a></span></li>
+            <li class="nav__item"><span class="nav__parent"><a href="#">Popular</a></span></li>
+            <li class="nav__item"><span class="nav__parent"><a href="#">Trending</a></span></li>
+            <li class="nav__item"><span class="nav__parent"><a href="#">Categories</a></span></li>
+          </ul>
+        </div>
+        <!--mobile menu ENDS-->
+        <!--DESKTOP menu BEGGINS-->
+        <div class="nav__desktop"> <!--OVERLAY BACKGROUND FROM HAM MENU OPENED-->
+          <ul class="wrap">  <!--THE HAM MENU ITSELF WHEN DISPLAY-->
+            <li class="nav__item"><span class="nav__parent"><a href="#">Home</a></span></li>
+            <li class="nav__item"><span class="nav__parent"><a href="#">New</a></span></li>
+            <li class="nav__item"><span class="nav__parent"><a href="#">Popular</a></span></li>
+            <li class="nav__item"><span class="nav__parent"><a href="#">Trending</a></span></li>
+            <li class="nav__item"><span class="nav__parent"><a href="#">Categories</a></span></li>
+          </ul>
+        </div>
+        <!--DESKTOP MENU ENDS-->      
+      </nav>
+      <!--NAVBARS BOTH MENUS ENDS-->
+      <!--HEADER BEGGINS-->
+      <article class="grid">
+        <section class="header">
+          <div class="header__img--mobile"></div>
+          <div class="header__img--desktop"></div>
+          <div class="header__downwrap">
+            <h1 class="header__title">The Bright Future of Web 3.0 ?</h1>
+            <div class="header__description--wrap">
+              <p class="header__description"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+              <button>Read more</button>
+            </div>
+          </div>
+        </section>
+        <aside class="news">
+          <h1 class="news__title">New</h1>
+          <h2 class="news__generic-title">Hydrogen VS Electric Cars</h2>
+          <p class="news__description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <div class="downbar"></div>
+          <h2 class="news__generic-title">The Downsides of AI Artistry</h2>
+          <p class="news__description">What are the possible adverse effects of on-demand AI image generation?</p>
+          <div class="downbar"></div>
+          <h2 class="news__generic-title">Is VC Funding Drying Up?</h2>
+          <p class="news__description">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </aside>
+      </article>
+    </header>    
+    <!--HEADER ENDS-->
+    <!--FOOTER BEGGINS-->    
+    <footer class="footer">
+      <div class="card">
+      <img class="card__img" src="assets/images/image-retro-pcs.jpg" alt="pc's">
+        <di class="card__aside">
+          <p class="card__header">01</p><p class="card__title">Reviving Retro PCs</p><p class="card__description">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="card">
+      <img class="card__img" src="assets/images/image-top-laptops.jpg" alt="desktops">
+        <div class="card__aside">
+          <p class="card__header">02</p><p class="card__title">Top 10 Laptops of 2022</p><p class="card__description">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="card">
+      <img class="card__img" src="assets/images/image-gaming-growth.jpg" alt="gaming">
+        <div class="card__aside">
+          <p class="card__header">03</p><p class="card__title">The Growth of Gaming</p><p class="card__description">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>  
+    </footer>
+    <!--FOOTER ENDS-->
+  </main> 
+  <script src="main.js"></script>
+  <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">lotso' coffee</a>.</div>
+</body>
+</html>
